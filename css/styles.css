@@ -34,6 +34,7 @@ body {
 
 /* header nav */
 .header {
+
     background-color: #fff;
     
 
@@ -45,13 +46,12 @@ body {
     right: 0;
     left: 0;
     top: 0;
-    width: 100vw;
-    background-color: rgb(179, 41, 41);
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-     position: fixed; 
+    
 }
 .nav__logo-img a:hover {
     color: #DE2E54;
@@ -111,8 +111,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.container {
-}
+
 .hero__wrap {
 }
 .hero__title {
@@ -144,7 +143,7 @@ body {
 /* main center */
 .services {
     background-color: #fff;
-    padding: 120px 0;
+    padding-top: 120px ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -201,7 +200,11 @@ body {
 }
 
    /*services bootom */
+    .services__btn{
+        margin-bottom: 12rem;
+    }
     .services__bottom{
+        width: 100%;
         padding: 64px 0;
         text-align: center;
         background-color: #0EB4C1;
@@ -248,32 +251,50 @@ body {
     /* footer bottom */
     .footer__container {
         display: flex;
-        /* justify-content:space-between; */
+        justify-content:space-between;
         align-items: center;
-        background-color: #fff;
+        background-color: #000;
     }
     .footer__bottom {
-        
-
-        padding: 24px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
         background-color:#000000;
         
     }
     .footer__bottom-img{
-        width: 185px;
+        width: 50px;
+        height: 50px;
         display: inline-block;
-        margin-left: auto;
+        margin-right: 16px;
+
 
     }
-
+    .logo-span{
+        display: inline-block;
+        
+    }
+    .logo-end{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+    }
     .footer__nav-list {
         display: flex;  
-        
+        font-size: 24px;
+        line-height: 32.68px;
         width: 100%;
         max-width: 1100px;
     }
-    .footer__nav-item {
+    .footer__nav-item{
         list-style: none;
+    }
+    .footer__nav-item a{
+        line-height: 21px;
+        letter-spacing: 2px;
+        font-size: 14px;
         color:#FFFFFF ;
         text-decoration: none;
         margin-right: 32px;
