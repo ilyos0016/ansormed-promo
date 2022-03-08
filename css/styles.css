@@ -53,13 +53,32 @@ body {
     padding: 15px;
     
 }
+.nav__logo-con{
+    display: flex;
+    align-items: center;
+}
 .nav__logo-img a:hover {
     color: #DE2E54;
 }
 
 .nav__logo-img {
     display: inline-block;
-    width: 185px;
+    margin-right: 16px;
+}
+.nav__logo-text:hover{
+    color:#DE2E54;
+}
+.nav__logo-text:active{
+    color:#DE2E54;
+    opacity: 60%;
+}
+.nav__logo-text{
+    font-size: 24px;
+    line-height: 32.68px;
+    text-decoration: none;
+    color: #222;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
 }
 .nav__list {
     display: flex;
@@ -101,7 +120,7 @@ body {
 /* main hero */
 
 .hero {
-    margin-top: 44px;
+    /* margin-top: 44px; */
     padding: 120px 0;
     background-color: #0EB4C1;
 }
@@ -162,6 +181,7 @@ body {
     margin-bottom: 60px;
     
 }
+
 .services__item:not(:last-child){
     margin-bottom: 80px;
 }
@@ -219,25 +239,32 @@ body {
         margin-bottom: 40px;
         font-family: 'Open Sans Condensed', sans-serif;
     }
-    .services__bottom-uni-btns {
-        font-size: 15px;
-        line-height: 18px;
-        letter-spacing: 2px;
-        padding:12px 24px;
-        border-radius: 8px;
-        text-transform: uppercase;
-        text-decoration:none ;
-        color: #fff;
-        border:2px solid #fff;
-        font-family: 'Open Sans Condensed', sans-serif;
-        
-    }
+.services__bottom-uni-btns:hover{
+    background-color:#DE2E54;
+    border: none;
+}
+.services__bottom-uni-btns:active{
+    opacity: 60%;
+}
+.services__bottom-uni-btns {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    padding:12px 24px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-decoration:none ;
+    color: #fff;
+    border:2px solid #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.services__bottom-uni-btns:not(:last-child) {
+    margin-right: 40px;
     
-    .services__bottom-uni-btns:not(:last-child) {
-        margin-right: 40px;
-        
-    }
-    /*/services bottom */
+}
+/*/services bottom */
 
 
 
@@ -249,57 +276,77 @@ body {
 
 
     /* footer bottom */
-    .footer__container {
-        display: flex;
-        justify-content:space-between;
-        align-items: center;
-        background-color: #000;
-    }
-    .footer__bottom {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        background-color:#000000;
-        
-    }
-    .footer__bottom-img{
-        width: 50px;
-        height: 50px;
-        display: inline-block;
-        margin-right: 16px;
+.footer__container {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #000;
+}
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color:#000000;
+    
+}
+.footer__bottom-img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 16px;
 
 
-    }
-    .logo-span{
-        display: inline-block;
-        
-    }
-    .logo-end{
-        text-decoration: none;
-        color: #fff;
-        font-weight: 600;
-        font-family: 'Open Sans', sans-serif;
-    }
-    .footer__nav-list {
-        display: flex;  
-        font-size: 24px;
-        line-height: 32.68px;
-        width: 100%;
-        max-width: 1100px;
-    }
-    .footer__nav-item{
-        list-style: none;
-    }
-    .footer__nav-item a{
-        line-height: 21px;
-        letter-spacing: 2px;
-        font-size: 14px;
-        color:#FFFFFF ;
-        text-decoration: none;
-        margin-right: 32px;
-    }
-    /*/ footer bottom */
+}
+.footer-b-text:hover{
+    color: #DE2E54;
+}
+.footer-b-text:active{
+    color: #fff;
+
+}
+.footer-b-text{
+    font-size: 24px;
+    line-height: 32.68px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer__nav-list {
+    display: flex;  
+
+    width: 100%;
+    max-width: 1100px;
+}
+
+.footer__nav-item{
+
+    list-style: none;
+}
+.footer__nav-item a:hover{
+    color: #DE2E54;
+}
+.footer__nav-item a:active{
+    color: #fff;
+}
+.footer__nav-item a{
+    text-transform: uppercase;
+    line-height: 21px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color:#FFFFFF ;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    margin-right: 32px;
+}
+.footer-logo-con{
+    display: flex;
+    align-items: center;
+}
+/*/ footer bottom */
 
 
 
