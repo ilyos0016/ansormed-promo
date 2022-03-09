@@ -241,7 +241,7 @@ body {
     }
 .services__bottom-uni-btns:hover{
     background-color:#DE2E54;
-    border: none;
+    border-color:#DE2E54 ;
 }
 .services__bottom-uni-btns:active{
     opacity: 60%;
